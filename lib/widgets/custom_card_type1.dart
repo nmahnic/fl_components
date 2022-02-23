@@ -16,7 +16,7 @@ class CustomCardType1 extends StatelessWidget {
           const ListTile(
             leading: Icon( Icons.photo_album, color: AppTheme.primaryColor),
             title: Text('Soy un titulo'),
-            subtitle: Text('Duis minim eu do cupidatat nostrud quis qui. Fugiat consequat cupidatat minim cupidatat fugiat consectetur est cupidatat velit. Aliqua ullamco elit ea exercitation adipisicing. Officia occaecat cillum pariatur occaecat veniam proident duis incididunt Lorem reprehenderit est. Aliqua commodo ea in nulla amet sint tempor adipisicing eiusmod consequat aute aliqua. Consequat velit magna sunt fugiat magna magna quis dolore non enim velit non sint esse.')
+            subtitle: Text('Duis minim eu do cupidatat nostrud quis qui. Fugiat consequat cupidatat minim cupidatat fugiat consectetur est cupidatat velit. Aliqua ullamco elit ea exercitation adipisicing. Officia occaecat cillum pariatur occaecat veniam proident duis incididunt Lorem reprehenderit est. Aliqua commodo ea in nulla amet sint tempor adipisicing eiusmod consequat aute aliqua.')
           ),
 
           Padding(
