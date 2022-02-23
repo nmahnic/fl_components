@@ -12,7 +12,9 @@ class AppRoutes {
     MenuOption(name: 'List1 Screen', route: '/listView1', screen: const ListView1Screen(), icon: Icons.list),
     MenuOption(name: 'List2 Screen', route: '/listView2', screen: const ListView2Screen(), icon: Icons.list_alt),
     MenuOption(name: 'Card Screen', route: '/card', screen: const CardScreen(), icon: Icons.card_giftcard),
-    MenuOption(name: 'Alert Screen', route: '/alert', screen: const AlertScreen(), icon: Icons.add_alert),
+    MenuOption(name: 'Android Alert Screen', route: '/alertAndroid', screen: const AlertScreenAndroid(), icon: Icons.phone_android),
+    MenuOption(name: 'iOS Alert Screen', route: '/alertIOS', screen: const AlertScreenIOS(), icon: Icons.phone_iphone),
+    MenuOption(name: 'Platform Alert Screen', route: '/alert', screen: const AlertScreen(), icon: Icons.dashboard_customize_rounded),
   ];
 
   static  Map<String, Widget Function(BuildContext)> getAppRoutes() {
@@ -27,7 +29,7 @@ class AppRoutes {
 
   static Route<dynamic> onGenerateRoute (RouteSettings settings) {
     return MaterialPageRoute(
-      builder: (context) => const AlertScreen(),
+      builder: (context) => const AlertScreenAndroid(),
     );
   }
 

@@ -13,7 +13,7 @@ class ListView2Screen extends StatelessWidget {
         centerTitle: true,
         title: const Text('List view Tipo 2'),
         elevation: 5,
-        backgroundColor: Colors.indigo
+        backgroundColor: Colors.orange
       ),
       body: ListView.separated(
         itemCount: options.length,
@@ -21,7 +21,7 @@ class ListView2Screen extends StatelessWidget {
           title: Text(options[index]),
           trailing: const Icon(
             Icons.arrow_forward_ios_outlined,
-            color: Colors.indigo,
+            color: Colors.orange,
           ),
           onTap: () {
             final game = options[index];
