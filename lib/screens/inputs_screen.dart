@@ -52,6 +52,20 @@ class InputsScreen extends StatelessWidget {
                   suffixIcon: Icons.mail_outline_rounded, 
                   obscureText: true
                 ),
+
+
+                DropdownButtonFormField<String>(
+                  value: 'Admin',
+                  items: const [
+                    DropdownMenuItem(value: 'Admin', child: Text('Admin')),
+                    DropdownMenuItem(value: 'User', child: Text('User')),
+                    DropdownMenuItem(value: 'Root', child: Text('Root')),
+                  ], 
+                  onChanged: (value) {
+                    print(value);
+                    formValues['role'] = value ?? 'User';
+                  }
+                ),
           
                 ElevatedButton(
                   onPressed: () {
