@@ -15,6 +15,8 @@ class AppRoutes {
     MenuOption(name: 'Android Alert Screen', route: '/alertAndroid', screen: const AlertScreenAndroid(), icon: Icons.phone_android),
     MenuOption(name: 'iOS Alert Screen', route: '/alertIOS', screen: const AlertScreenIOS(), icon: Icons.phone_iphone),
     MenuOption(name: 'Platform Alert Screen', route: '/alert', screen: const AlertScreen(), icon: Icons.dashboard_customize_rounded),
+    MenuOption(name: 'Avatar Screen', route: '/avatar', screen: const AvatarScreen(), icon: Icons.people_rounded),
+    MenuOption(name: 'Animated Screen', route: '/animated', screen: const AnimatedScreen(), icon: Icons.animation),
   ];
 
   static  Map<String, Widget Function(BuildContext)> getAppRoutes() {
