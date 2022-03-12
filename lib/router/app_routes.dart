@@ -7,6 +7,7 @@ class AppRoutes {
 
   static const initialRoute = '/home';
   static final menuOptions = <MenuOption> [
+    MenuOption(name: 'ListView Builder Screen', route: '/listView3', screen: const ListViewBuilderScreen(), icon: Icons.line_style),
     MenuOption(name: 'Slider Screen', route: '/slider', screen: const SliderScreen(), icon: Icons.slideshow),
     MenuOption(name: 'List1 Screen', route: '/listView1', screen: const ListView1Screen(), icon: Icons.list),
     MenuOption(name: 'List2 Screen', route: '/listView2', screen: const ListView2Screen(), icon: Icons.list_alt),
